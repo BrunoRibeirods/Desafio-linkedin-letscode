@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rambla', sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.li-opt{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px 0 8px;
+}
+
+.logo-photo-header{
+    margin-left: 40px;
+}
+
+.my-photo-header{
+    border-radius: 80%;
+}
+
+header{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header-top{
+    margin-top: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-search{
+    display: flex;
+}
+
+.loupe-input{
+    margin-left: 5px;
+    cursor: text;
+    position: absolute;
+}
+
+.input-layout{
+    margin-left: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    height: 34px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 5px 15px 5px rgba(196,196,196,0.62);
+    margin-bottom: 40px;
+}
+
+.card-img{
+    display: flex;
+    height: 135px;
+    margin-bottom: 90px;
+}
+
+.card-desc{
+    
+    height: 135px;
+    margin-left: 40px;
+}
+
+.perfil-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+    position: absolute;
+    margin: 70px 0 0 40px;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+}
+
+.btns-card{
+    margin: -50px 0 10px 40px;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #0554a3;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #043f7a;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: #666666;
+    border: 1px #666666 solid;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(177, 177, 177);
+    color: #666666;
+    border: 1px #666666 solid;
+}
+
+.btn-large{
+    min-width: 150px;
+    min-height: 21px;
+}
+
+.btn-medium{
+    min-width: 110px;
+    min-height: 21px;
+}
+
+.btn-small{
+    min-width: 80px;
+    min-height: 21px;
+}
+
+.title-job{
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-job{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.job-img-pos{
+    margin-right: 10px;
+}
+
+.job-img{
+    width: 60px;
+    height: 60px;
+    box-shadow: 3px 5px 15px 5px rgba(196,196,196,0.62);
+}
+
+.job-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-desc{
+    font-weight: bold;
+}
