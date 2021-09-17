@@ -37,7 +37,7 @@ header{
     font-size: small;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 38px;
 }
 
 .header-top{
@@ -47,8 +47,15 @@ header{
     justify-content: space-between;
 }
 
+@media (max-width: 830px) { 
+    .header-top{
+        width: 717px;
+    }
+ }
+
 .header-logo-search{
     display: flex;
+    align-items: center;
 }
 
 .loupe-input{
@@ -82,8 +89,14 @@ input{
     display: flex;
     flex-direction: column;
     box-shadow: 3px 5px 15px 5px rgba(196,196,196,0.62);
-    margin-bottom: 40px;
+    margin-bottom: 34px;
 }
+
+@media (max-width: 830px) { 
+    .card{
+        width: 717px;
+    }
+ }
 
 .card-img{
     display: flex;
@@ -91,11 +104,22 @@ input{
     margin-bottom: 90px;
 }
 
+@media (max-width: 830px) { 
+    .card-img{
+        height: 133px;
+    }
+ }
+
 .card-desc{
-    
     height: 135px;
     margin-left: 40px;
 }
+
+@media (max-width: 830px) { 
+    .card-desc{
+        height: 183px;
+    }
+ }
 
 .perfil-img{
     width: 130px;
@@ -111,8 +135,15 @@ input{
 }
 
 .btns-card{
-    margin: -50px 0 10px 40px;
+    margin: -50px 0 33px 40px;
 }
+
+@media (max-width: 830px) { 
+    .btns-card{
+        margin-bottom: 33px;
+        margin-top: -90px;
+    }
+ }
 
 .btn{
     border-radius: 20px;
