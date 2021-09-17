@@ -137,13 +137,13 @@ input:focus {
 }
 
 .btns-card {
-    margin: -50px 0 33px 40px;
+    margin: -45px 0 33px 40px;
 }
 
 @media (max-width: 830px) {
     .btns-card {
         margin-bottom: 33px;
-        margin-top: -90px;
+        margin-top: -80px;
     }
 }
 
@@ -190,6 +190,21 @@ input:focus {
 .btn-small {
     min-width: 80px;
     min-height: 21px;
+}
+
+.subtitle-card {
+    margin-bottom: 5px;
+}
+
+.details-card {
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.title-card {
+    margin-bottom: 5px;
 }
 
 .title-job {
